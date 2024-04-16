@@ -24,8 +24,8 @@ Preview the first few rows of the data.
 Select columns to analyze.
 View data summary statistics including data types, missing values, unique values, and standard deviation.
 Sort data by a chosen column.
-Data Visualization
 
+Data Visualization
 Select the data loaded in the Data Analysis section (requires data to be uploaded first).
 Choose a chart type (Bar Chart, Line Chart, Scatter Plot, Histogram, or Pie Chart).
 Select the columns for the x-axis and y-axis (depending on the chart type).
