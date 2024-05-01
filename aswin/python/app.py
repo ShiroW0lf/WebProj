@@ -16,7 +16,7 @@ pca = TruncatedSVD(n_components=2)
 page_element = """
 <style>
 [data-testid="stAppViewContainer"]{
-  background-image: url("https://images.pexels.com/photos/82256/pexels-photo-82256.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2");
+  background-image: url("https://img.freepik.com/free-vector/digital-technology-background-with-abstract-wave-border_53876-117508.jpg");
   background-size: cover;
 }
 [data-testid="stHeader"]{
