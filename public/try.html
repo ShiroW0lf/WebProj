@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SAD Analytics</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <div class="background-img">
+      <img src="bg.jpg" alt="Background Image">
+    </div>
+    <div class="application">
+      <span class="welcome-message">  <p id="welcome-message"></p>
+      </span>
+      <script>
+        const username = sessionStorage.getItem('username');
+        if (username) {
+          document.getElementById('welcome-message').textContent = `Hello, ${username}! Here's your analysis application.`;
+        } else {
+          // Handle case where username is not available
+        }
+      </script>
+      <div class="iframe-container">
+        <iframe src="http://localhost:8501" width="100%" height="600px"></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
