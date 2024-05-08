@@ -1,1 +1,14 @@
+To navigate to the python directory : 
+cd C:...\WebProj\python
+To install the requirements of the app.py application:
+pip install -r requirements.txt 
+To run the application app.py:
+run app.py: streamlit run app.py
+
+To navigate to WebProj where app.js file is located: 
+cd C:...\WebProj
+npm install 
+To run node app.js:
+node app.js
+
 
